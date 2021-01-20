@@ -41,6 +41,7 @@ class Home extends React.Component {
                   title={movie.title}
                   overview={movie.overview}
                   poster={movie.poster_path}
+                  backposter={movie.backdrop_path}
                   vote_count={movie.vote_count}
                   vote_average={movie.vote_average}
                 />

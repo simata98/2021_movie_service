@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Navigation() {
   return (
     <div className="nav" style={{ width: "100%" }}>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" style={{ width: "100%" }}>
         <Navbar.Brand to="/home">Jeong's Movie</Navbar.Brand>
         <Nav className="mr-auto">
           <Link

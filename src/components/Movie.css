@@ -1,16 +1,5 @@
-.movies {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 50px;
-  width: 80%;
-  padding-top: 70px;
-}
-
 .movies .movie {
-  width: 45%;
-  background-color: aliceblue;
+  background-color: rgba(202, 185, 185, 0.144);
   margin-bottom: 70px;
   font-weight: 300;
   padding: 20px;
@@ -42,12 +31,13 @@
 .movie .movie_release {
   font-weight: 300;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .movie .movie_title {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   font-size: 24px;
-  color: #2c2c2c;
+  color: #e4e0e0;
   font-weight: 500;
 }
 

@@ -11,6 +11,7 @@ function Movie({
   poster,
   vote_count,
   vote_average,
+  backposter,
 }) {
   return (
     <div className="movie">
@@ -24,6 +25,7 @@ function Movie({
             poster,
             vote_count,
             vote_average,
+            backposter,
           },
         }}
       >
