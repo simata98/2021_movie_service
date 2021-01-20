@@ -5,6 +5,8 @@
   background-position: center center;
   background-size: auto;
   opacity: 0.3;
+  filter: blur(2px);
+  -webkit-filter:blur(2px);
 }
 
 .poster {
